@@ -1,0 +1,179 @@
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.menu{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	z-index: 5;
+}
+
+.menu ul{
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+/* !Отключаем прилипание после меню */
+.menu > ul::after{
+	display: block;
+	width: 100%;
+	height: 0px;
+	clear: both;
+	content: " ";
+}
+
+.menu ul li{
+	position: relative;
+	display: block;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+.menu ul li a{
+	display: block;
+	padding: 9px 25px 0px 25px;
+	font-size: 14px;
+	line-height: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 36px;
+	box-sizing: border-box;
+}
+
+.menu ul li ul{
+	position: absolute;
+	top: 36px;
+	left: 0;
+	display: none;
+	width: 200px;
+}
+
+.menu ul li:hover ul{
+	display: block;
+}
+
+.slider{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.slider img{
+	width: 100%;
+}
+
+footer{
+    background-color: darkred;
+    color: turquoise;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.author{
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.author span{
+    color: rgb(29, 29, 29);
+}
+
+ul{
+    background-color: rebeccapurple;
+    padding: 15px;
+    list-style: none;
+    height: auto;
+}
+li{
+    background-color: burlywood;
+    padding: 10px;
+     margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    display: inline;
+    
+    width: 20vw;
+}
+li:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;   
+}
+.menu-ex{
+    background-color: brown;
+}
+.post {
+    width: 500px;
+    border: 1px solid grey ;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.post img{
+    width: 500px;
+    border-radius: 10px;
+}
+.post button{
+    font-size: 15px;
+    background-color:violet;
+    color: black;
+    font-weight: 700;
+    border: 1px solid slategray;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: thistle}
+
+.post img{
+    width: 500px;
+    border-radius: 10px;
+    
+}
+.post button {
+    font-size: 15px;
+    background-color: thistle;
+    color: black;
+    font-weight: 700;
+    border: 1px solid slategray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+body{
+    /* background-color: cadetblue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-image: url(https://creativo.one/lessons/les5669/01.jpg);
+    background-size: cover;
+}
+
+a:active{
+    background-color: crimson;
+    color: darkgrey; }
+
+	a:hover{
+		background-color: whitesmoke;
+		color: cadetblue;
+		cursor: pointer;
+	}
+
+	.img {
+		size: 25px;;
+	}
